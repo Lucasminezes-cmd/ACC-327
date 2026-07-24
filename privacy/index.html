@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de Privacidade - Pacote Construtor">
+  <meta name="robots" content="noindex, follow">
+  <title>Política de Privacidade – PACOTE CONSTRUTORA LTDA</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%234a4f55'/><text y='.9em' font-size='40' font-family='sans-serif' font-weight='800' fill='%23f8cb45' x='16'>PC</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #4a4f55; --primary-dark: #363a3f; --primary-deep: #202327;
+      --accent: #f2b100; --accent-dark: #cc9400; --accent-light: #f8cb45;
+      --bg: #f5f5f6; --bg-2: #e4e5e7; --paper: #fafbfc; --white: #ffffff;
+      --ink: #1b1d20; --ink-soft: #43474d; --grey: #83878e;
+      --line: rgba(74,79,85,0.16);
+      --font-display: 'Barlow Condensed', sans-serif; --font-body: 'Inter', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--ink); min-height: 100vh; display: flex; flex-direction: column; }
+    .page-header { background: var(--white); border-bottom: 1px solid var(--line); padding: 1.4rem 4vw; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+    .header-brand { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+    .header-badge { width: 44px; height: 44px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 16px; color: var(--accent-light); font-weight: 800; }
+    .header-name { font-family: var(--font-display); font-size: 1.15rem; color: var(--primary-dark); font-weight: 800; letter-spacing: -0.3px; }
+    .header-name span { color: var(--accent-dark); font-weight: 500; }
+    .header-back { font-family: var(--font-body); font-size: 0.82rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; letter-spacing: 1px; text-transform: uppercase; transition: color 0.25s; }
+    .header-back:hover { color: var(--primary); }
+    main { flex: 1; max-width: 880px; margin: 3rem auto; padding: 0 4vw; width: 100%; }
+    .content-box { background: var(--white); padding: 3.5rem 3rem; border-radius: 16px; box-shadow: 0 4px 24px rgba(74,79,85,0.06); }
+    h1.title { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 3.4rem); letter-spacing: -1.5px; line-height: 1.05; color: var(--primary-dark); font-weight: 800; margin-bottom: 0.5rem; }
+    .last-updated { font-family: var(--font-body); font-size: 0.85rem; color: var(--grey); margin-bottom: 2rem; }
+    .company-block { background: var(--bg); border-left: 4px solid var(--primary); padding: 1.3rem 1.6rem; border-radius: 0 8px 8px 0; margin-bottom: 2.5rem; }
+    .company-block p { font-family: var(--font-body); font-size: 0.96rem; color: var(--primary-dark); line-height: 1.7; }
+    .company-block strong { color: var(--primary-deep); font-weight: 700; }
+    h2.section-h { font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; color: var(--primary-dark); letter-spacing: -0.3px; margin-top: 2.2rem; margin-bottom: 0.8rem; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+    h2.section-h::before { content: ''; display: inline-block; width: 6px; height: 22px; background: var(--accent); border-radius: 2px; }
+    p { font-family: var(--font-body); font-size: 1rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 0.6rem; }
+    ul { list-style: none; padding-left: 0.4rem; margin: 0.6rem 0; }
+    ul li { font-family: var(--font-body); font-size: 1rem; line-height: 1.75; color: var(--ink-soft); padding-left: 1.4rem; position: relative; margin-bottom: 0.3rem; }
+    ul li::before { content: '▸'; position: absolute; left: 0; top: 0; color: var(--accent-dark); font-size: 0.8rem; }
+    a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: var(--accent-dark); }
+    .internal-copyright { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); font-family: var(--font-body); font-size: 0.82rem; color: var(--grey); text-align: center; }
+    footer.page-footer { background: var(--primary-deep); color: rgba(255,255,255,0.78); padding: 2.5rem 4vw; text-align: center; }
+    footer.page-footer p { font-family: var(--font-body); font-size: 0.9rem; color: rgba(255,255,255,0.65); line-height: 1.7; margin-bottom: 0.3rem; }
+    footer.page-footer strong { color: var(--white); font-weight: 700; }
+    footer.page-footer .footer-line2 { font-family: var(--font-body); font-size: 0.78rem; color: rgba(255,255,255,0.5); letter-spacing: 0.3px; margin-top: 0.8rem; }
+    @media (max-width: 700px) { .content-box { padding: 2.2rem 1.5rem; } .header-name { font-size: 0.95rem; } .header-back { font-size: 0.74rem; } main { margin: 1.5rem auto; } }
+  </style>
+</head>
+<body>
+<header class="page-header">
+  <a href="/" class="header-brand"><div class="header-badge">PC</div>
+    <div class="header-name">Pacote <span>Construtor</span></div></a>
+  <a href="/" class="header-back">← Voltar ao site</a>
+</header>
+<main>
+  <div class="content-box">
+    <h1 class="title">POLÍTICA DE PRIVACIDADE</h1>
+    <p class="last-updated">Última atualização: maio de 2026</p>
+    <div class="company-block"><p><strong>PACOTE CONSTRUTORA LTDA</strong> | CNPJ: 63.347.940/0001-71<br>
+      CH DO DODO, SN – RIO VERDE – ITAPORANGA - SP – CEP: 18.489-899<br>
+      E-mail: ESC-MODELO@HOTMAIL.COM | Tel: (15) 3565-1411</p></div>
+    <h2 class="section-h">1. Quem somos</h2>
+    <p>A PACOTE CONSTRUTORA LTDA, inscrita no CNPJ sob o nº 63.347.940/0001-71, com sede em CH DO DODO, SN, RIO VERDE, ITAPORANGA - SP, CEP 18.489-899, é responsável pelo tratamento dos dados pessoais coletados neste site.</p>
+    <h2 class="section-h">2. Dados que coletamos</h2>
+    <p>Ao utilizar nosso formulário de contato, podemos coletar:</p>
+    <ul><li>Nome completo</li><li>Número de telefone</li><li>Endereço de e-mail</li><li>Informações sobre obras, alvenaria ou instalações de interesse</li><li>Dados técnicos de navegação</li></ul>
+    <h2 class="section-h">3. Finalidade do tratamento</h2>
+    <p>Os dados coletados são utilizados exclusivamente para responder às solicitações, estabelecer contato comercial e enviar informações sobre nossos produtos e serviços quando autorizado.</p>
+    <h2 class="section-h">4. Compartilhamento de dados</h2>
+    <p>Não compartilhamos, vendemos ou cedemos seus dados pessoais a terceiros, exceto quando exigido por lei ou ordem judicial.</p>
+    <h2 class="section-h">5. Segurança</h2>
+    <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não autorizado, perda ou divulgação indevida.</p>
+    <h2 class="section-h">6. Seus direitos (LGPD)</h2>
+    <p>Conforme a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você pode a qualquer momento solicitar acesso, correção, exclusão ou portabilidade dos seus dados, entrando em contato pelo e-mail <a href="mailto:ESC-MODELO@HOTMAIL.COM">ESC-MODELO@HOTMAIL.COM</a>.</p>
+    <h2 class="section-h">7. Cookies</h2>
+    <p>Utilizamos cookies para melhorar a experiência de navegação. Você pode controlar o uso de cookies pelas configurações do seu navegador.</p>
+    <h2 class="section-h">8. Retenção de dados</h2>
+    <p>Mantemos seus dados apenas pelo tempo necessário para as finalidades descritas ou para cumprimento de obrigações legais.</p>
+    <h2 class="section-h">9. Atualizações desta política</h2>
+    <p>Podemos revisar esta política periodicamente. Alterações serão comunicadas nesta página com atualização da data de revisão.</p>
+    <h2 class="section-h">10. Contato do controlador</h2>
+    <p>Para dúvidas ou solicitações relacionadas à privacidade:</p>
+    <p>E-mail: <a href="mailto:ESC-MODELO@HOTMAIL.COM">ESC-MODELO@HOTMAIL.COM</a><br>Telefone: (15) 3565-1411<br>Endereço: CH DO DODO, SN – RIO VERDE – ITAPORANGA - SP</p>
+    <div class="internal-copyright">© 2026 PACOTE CONSTRUTORA LTDA – CNPJ 63.347.940/0001-71 – Todos os direitos reservados.</div>
+  </div>
+</main>
+<footer class="page-footer">
+  <p>© 2026 <strong>PACOTE CONSTRUTORA LTDA</strong> – Todos os direitos reservados.</p>
+  <p class="footer-line2">CNPJ: <strong>63.347.940/0001-71</strong> · CH DO DODO, SN, RIO VERDE, ITAPORANGA - SP, CEP: 18.489-899 · Tel: (15) 3565-1411</p>
+</footer>
+</body>
+</html>
